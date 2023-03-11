@@ -1,0 +1,299 @@
+﻿<Window x:Class="Lab_15_WpfApp_СамРабота_ДокПечать.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab_15_WpfApp_СамРабота_ДокПечать"
+       mc:Ignorable="d"
+        Title="MainWindow" Height="725" Width="1472.5">
+    <Window.Background>
+        <ImageBrush ImageSource="Data/СытоПьяно 6.jpg"></ImageBrush>
+    </Window.Background>
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="0,0,6,70">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="0.042"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <FlowDocumentScrollViewer RenderTransformOrigin="0.5,0.5" Margin="0,0,0,-70" FontWeight="Light" FontStretch="ExtraExpanded" FontStyle="Italic" TextOptions.TextFormattingMode="Display" IsManipulationEnabled="True" IsInactiveSelectionHighlightEnabled="True" ForceCursor="True">
+            <FlowDocumentScrollViewer.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.126"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </FlowDocumentScrollViewer.RenderTransform>
+            <FlowDocument FontSize="20">
+                <Paragraph FontWeight="ExtraBold" FontSize="72" FontFamily="ChinaCyr" TextAlignment="Center">
+                    <InlineUIContainer>
+                        <Image
+        Height="130" Width="132">
+                            <Image.Source
+        >
+                                <ImageSource
+        >Сыто Пьяно.jpg</ImageSource>
+                            </Image.Source>
+                        </Image>
+                    </InlineUIContainer>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run FontSize="48" Text="Вкусный ужин на скорую руку"/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="22" FontFamily="Pristina" Text="То  что нужно при активном поудении. Очень вкусный белковый ужин приготовить очень просто."/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontWeight="Bold" FontStyle="Italic" FontSize="22" FontFamily="Pristina" Text="Вам понадобится:"/>
+                </Paragraph>
+                <List FontStyle="Italic" MarkerStyle="Disc">
+                    <ListItem>
+                        <Paragraph>
+                            <Run FontWeight="Bold" FontSize="22" FontFamily="Pristina" Text="Куриное филе 100 гр"/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Run FontWeight="Bold" FontSize="22" FontFamily="Pristina" Text="Яйцо 2 шт"/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Run FontWeight="Bold" FontSize="22" FontFamily="Pristina" Text="Помидор 20 гр"/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Run FontWeight="Bold" FontSize="22" FontFamily="Pristina" Text="Сыр 20 гр"/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Run FontWeight="Bold" FontSize="22" FontFamily="Pristina" Text="Капля масла для смазывания (1 гр)"/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Run FontWeight="Bold" FontSize="22" FontFamily="Pristina" Text="Соль по вкусу"/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    <Run/>
+                </Paragraph>
+                <Paragraph>
+                    <Run/>
+                </Paragraph>
+                <Paragraph>
+                    <InlineUIContainer>
+                        <Image
+        Height="135" Source="Ужин 1.png" Width="192"/>
+                    </InlineUIContainer>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <InlineUIContainer>
+                        <Image
+        Height="140" Source="Ужин 2.png" Width="133"/>
+                    </InlineUIContainer>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <InlineUIContainer>
+                        <Image
+        Height="141" Source="Ужин 3.png" Width="178"/>
+                    </InlineUIContainer>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <InlineUIContainer>
+                        <Image
+        Height="145" Source="Ужин 4.png" Width="162"/>
+                    </InlineUIContainer>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <InlineUIContainer>
+                        <Image
+        Height="145" Source="Ужин 5.png" Width="162"/>
+                    </InlineUIContainer>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <Run Text=" "/>
+                    <InlineUIContainer>
+                        <Image
+        Height="145" Source="Ужин 6.png" Width="162"/>
+                    </InlineUIContainer>
+                </Paragraph>
+                <Paragraph>
+                    <Run/>
+                </Paragraph>
+                <Paragraph>
+                    <Run FontFamily="Script MT Bold"/>
+                </Paragraph>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn Width="0.1*"/>
+                        <TableColumn Width="0.25*"/>
+                        <TableColumn Width="*"/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow FontWeight="Bold">
+                            <TableCell>
+                                <Paragraph FontSize="14">
+                                    <Run FontFamily="Script MT Bold" Text="№"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="Д"/>
+                                    <Run FontFamily="Script MT Bold" Text="ЕЙСТВИЕ"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph TextAlignment="Center">
+                                    <Run FontFamily="Script MT Bold" Text="КАРТИНКА"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="1."/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="НАЧАЛО"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="Блендером перемешиваем яйца и куриное филе до однородной массы добавляем соль и перц по вкусу"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="2."/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="ПРОЦЕСС"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="на сководе жарим блин переворачиваем и доводим до готовности под крышкой"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="3."/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="ПИК ШОУ"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="Нарезанными дольками помидор выкладываем половину блина и присыпаем тертым сыром и накрываем  второй половиной блина.  "/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="4."/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="ФИНАЛ"/>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Run FontFamily="Script MT Bold" Text="СЕРВИРУЕМ И УКРАШАЕМ ЗЕЛЕНЬЮ"/>
+                                    <Run FontFamily="Script MT Bold" Text=". "/>
+                                    <Run FontFamily="Script MT Bold" Text="ПРИЯТНОГО АППЕТИТА"/>
+                                    <Run FontFamily="Script MT Bold" Text=")))"/>
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph>
+                    <Run FontFamily="Script MT Bold" Text=" "/>
+                    <InlineUIContainer>
+                        <Image
+        Height="100" Width="100"/>
+                    </InlineUIContainer>
+                </Paragraph>
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+    </Grid>
+</Window>
